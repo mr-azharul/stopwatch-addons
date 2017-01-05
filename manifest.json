@@ -1,0 +1,31 @@
+{
+
+  "manifest_version": 2,
+  "name": "Stopwatch",
+  "version": "1.0",
+
+  "description": "A Popup Stop Watch on Toolbar",
+  "icons": {
+    "32":"icons/icon1.png",
+    "48": "icons/icon2.png",
+    "96": "icons/icon2.png"
+  },
+  "author": "Azharul Islam",
+  "applications": {
+  "gecko": {
+    "id": "azharul.sylhet@gmail.com",
+    "strict_min_version": "42.0",
+    "strict_max_version": "50.*"
+    }
+  },
+  "homepage_url": "https://github.com/azharul96/stopwatch-addons",
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon1.png"
+    },
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "webRequest"
+  ]
+}

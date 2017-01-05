@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+#st {
+    font-family: courier, monospace;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
